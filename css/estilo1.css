@@ -366,7 +366,15 @@ html{
   margin: 0px;
 }
 
-#barra{
+#barra1{
+  padding: 0px;
+}
+
+#barra2{
+  padding: 0px;
+}
+
+#barra3{
   padding: 0px;
 }
 
@@ -377,25 +385,18 @@ html{
 }
 
 .navbar {
-  position: fixed; 
-  width: 100%;
-  height: 50px;
-  overflow: hidden;
-  background-color: black;
-  z-index: 1000;
-}
-.navbar a {
-  float: left;
   color: #f2f2f2;
-  text-align: center;
+}
+
+.navbar a {
+  color: #f2f2f2;
   margin-right: 15px;
   text-decoration: none;
   font-size: 20px;
-  padding-bottom: 5px;
 }
-.navbar a:hover {
+
+.nav-item a:hover {
   border-bottom: 2px solid #00757a;
-  color: lightslategray;
   padding-bottom: 5px;
 }
 
@@ -497,9 +498,10 @@ html{
   margin: auto;
   margin-top: 40px;
   height: auto;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 }
+
 
 .card1{
   margin-bottom: 50px;
@@ -513,6 +515,7 @@ html{
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .card1:hover{
@@ -521,10 +524,11 @@ html{
 
 .container1{
   height: 160px;
-  margin-top: 10px;
   padding: 2px 16px;
 }
-
+h4{
+  margin-top: 10px;
+}
 #titulo1{
   width: 100%;
   height: auto;
@@ -534,6 +538,40 @@ html{
   font-size: 17px; 
   font-weight: 600;
 }
+
+#virar{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: 10%;
+  transition: 5s;
+}
+
+#desvirar{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: 10%;
+  display: none;
+}
+
+#redeSocial{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+#redeSocial4{
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+
 
 /*Cartao do luiz gustavo*/
 .wrap2{
@@ -559,7 +597,6 @@ html{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .card2:hover{
@@ -567,8 +604,8 @@ html{
 }
 
 .container2{
+  width: 100%;
   height: 160px;
-  margin-top: 10px;
   padding: 2px 16px;
 }
 
@@ -580,6 +617,31 @@ html{
   margin-bottom: 3%;
   font-size: 17px; 
   font-weight: 600;
+}
+ 
+#virar2{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: 10px;
+}
+
+#desvirar2{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  margin-top: 10%;
+  transition: 5s;
+  display: none;
+}
+
+#redeSocial2{
+  display: none;
+  width: 100%;
+  height: auto;
 }
 
 /*Cartao do luiz henrique*/
@@ -615,7 +677,6 @@ html{
 .container3{
   width: 100%;
   height: 160px;
-  margin-top: 10px;
   padding: 2px 16px;
 }
 
@@ -627,6 +688,31 @@ html{
   margin-bottom: 3%;
   font-size: 17px; 
   font-weight: 600;
+}
+
+#virar3{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: -10px;
+}
+
+#desvirar3{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: 10%;
+  display: none;
+}
+
+#redeSocial3{
+  display: none;
+  width: 100%;
+  height: auto;
 }
 
 /*Cartao do vinicius*/
@@ -662,7 +748,6 @@ html{
 .container4{
   width: 100%;
   height: 160px;
-  margin-top: 10px;
   padding: 2px 16px;
 }
 
@@ -674,7 +759,28 @@ html{
   margin-bottom: 3%;
   font-size: 17px; 
   font-weight: 600;
-}/*Parte da página dos projetos*/
+}
+
+#virar4{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  transition: 5s;
+  margin-top: 10px;
+}
+
+#desvirar4{
+  width: 50px;
+  height: 30px;
+  border-radius: 100%;
+  float: right;
+  margin-top: 10%;
+  transition: 5s;
+  display: none;
+}
+
+/*Parte da página dos projetos*/
 #projetos{
   color: white;
   margin-left: 100px;
@@ -812,6 +918,10 @@ html{
   margin-top: 50px;
 }
 
-.button{
+#final{
   float: right;
+}
+
+#fim{
+  margin-left: 78%;
 }
