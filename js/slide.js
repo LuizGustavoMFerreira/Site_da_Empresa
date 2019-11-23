@@ -15,4 +15,3 @@ var appendNumber = 4;
     });
     '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
     '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>';
-      

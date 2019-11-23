@@ -1,20 +1,19 @@
 window.onload = function() {
-  L.mapquest.key = 'Tb4mQvnfzr5SSkAldnGNtLUzzpQTaaaL';
+  L.mapquest.key = 'lYrP4vF3Uk5zgTiGGuEzQGwGIVDGuy24';
 
   var map = L.mapquest.map('map', {
-    center: [-24.121955, -46.678716],    
+    center: [-24.122146, -46.678590],
     layers: L.mapquest.tileLayer('map'),
     zoom: 16
   });
 
-  map.addControl(L.mapquest.control());
+  L.mapquest.geocoding().geocode('Av. Monteiro Lobato, 8460-8588- Balneário Itaóca, Mongaguá - SP, 11730-000');
 }
 
-
-  /*Flip do carte do Erick*/
+  /*Flip do carte do Erick
   $( "#virar" ).click(function() {
     $(".container1").css("transition", "3s");
-    $(".container1").css("transform", "rotatey(180deg)");
+    $(".container1").css("transform", "rotatey(360deg)");
     $(".container1").css("background-color", "#007bff");
     $(".container1").css("color", "#fff");
     $("#titulo1").css("display", "none");
@@ -33,10 +32,10 @@ window.onload = function() {
     $("#desvirar").css("display", "none");
   }); 
 
-  /*Flip do carte do luiz G*/
+  Flip do carte do luiz G
   $( "#virar2" ).click(function() {
     $(".container2").css("transition", "3s");
-    $(".container2").css("transform", "rotatey(180deg)");
+    $(".container2").css("transform", "rotatey(360deg)");
     $(".container2").css("background-color", "#1ac6ff");
     $(".container2").css("color", "#fff");
     $("#titulo2").css("display", "none");
@@ -55,10 +54,10 @@ window.onload = function() {
     $("#desvirar2").css("display", "none");
   }); 
 
-  /*Flip do carte do Luiz H */
+  Flip do carte do Luiz H
   $( "#virar3" ).click(function() {
     $(".container3").css("transition", "3s");
-    $(".container3").css("transform", "rotatey(180deg)");
+    $(".container3").css("transform", "rotatey(360deg)");
     $(".container3").css("background-color", "#ff9966");
     $(".container3").css("color", "#fff");
     $("#titulo3").css("display", "none");
@@ -77,10 +76,10 @@ window.onload = function() {
     $("#desvirar3").css("display", "none");
   }); 
   
-  /*Flip do carte do Vinicius*/
+  Flip do carte do Vinicius
   $( "#virar4" ).click(function() {
     $(".container4").css("transition", "3s");
-    $(".container4").css("transform", "rotatey(180deg)");
+    $(".container4").css("transform", "rotatey(360deg)");
     $(".container4").css("background-color", "#ff5050");
     $(".container4").css("color", "#fff");
     $("#titulo4").css("display", "none");
@@ -97,4 +96,4 @@ window.onload = function() {
     $("#redeSocial4").css("display", "none");
     $("#virar4").css("display", "block");
     $("#desvirar4").css("display", "none");
-  }); 
+  });*/
